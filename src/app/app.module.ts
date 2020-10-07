@@ -8,6 +8,7 @@ import { MovieListComponent } from './pages/movie/movie-list/movie-list.componen
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { CardMovieComponent } from './shared/card-movie/card-movie.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardMovieComponent } from './shared/card-movie/card-movie.component';
     CardMovieComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
